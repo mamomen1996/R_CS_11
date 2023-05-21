@@ -443,8 +443,3 @@ autoplot(monthly_sales[, "furniture"], series = "Data") +
 	xlab("Year") + ylab("Dollars") +
 	ggtitle("Monthly Furniture Total Sales and SARIMA Method Prediction") + 
 	scale_colour_manual(values = c("Data" = "grey50", "Prediction" = "red"))
-
-
-
-
-
